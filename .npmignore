@@ -1,0 +1,10 @@
+support
+test
+examples
+*.sock
+*.sqlite
+wikis
+github-page
+*.md
+package.json
+.npmignore

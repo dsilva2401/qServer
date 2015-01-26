@@ -1,0 +1,6 @@
+*.swp
+backend/config.cfg
+npm-debug.log
+*.sqlite
+wikis
+github-page
