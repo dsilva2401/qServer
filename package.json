@@ -1,6 +1,6 @@
 {
   "name": "qserver",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "An easy way to setup an express server using sequelize and other modules",
   "keywords": [
     "express",
@@ -29,7 +29,8 @@
     "request": "^2.47.0",
     "sequelize": "^2.0.0-rc2",
     "socket.io": "^1.2.0",
-    "sqlite3": "^3.0.2"
+    "sqlite3": "^3.0.2",
+    "body-parser": "^1.10.2"
   },
   "main": "index"
 }
