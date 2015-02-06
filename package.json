@@ -1,6 +1,6 @@
 {
   "name": "qserver",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "An easy way to setup an express server using sequelize and other modules",
   "keywords": [
     "express",
