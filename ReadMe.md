@@ -20,7 +20,7 @@ Api Reference
 ## Initialize app
 Installation
 ```bash
-npm install express-sequelize-wrapper
+npm install qserver
 ```
 Setup app
 ```js
