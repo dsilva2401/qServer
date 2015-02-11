@@ -142,7 +142,7 @@ Based on [Socket.io](http://socket.io/docs/).
 #### `.socket`
 Receives a function as a paramater, that function receives the io server instance
 ```js
-app.socket( function(io) {
+app.socket( function($io) {
     io.on('connection', function (socket) {
         socket.emit('news', { hello: 'world' });
         socket.on('my other event', function (data) {
@@ -155,4 +155,4 @@ app.socket( function(io) {
 ## Dependencies
 Wrapper works with dependency injection, here we list available dependencies
 #### `$database`
-This is the instance of the app database
+#### `$io`
