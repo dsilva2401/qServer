@@ -140,10 +140,10 @@ app.install('/sub-app',subAppInstallerWithPath);
 ## Sockets
 Based on [Socket.io](http://socket.io/docs/).
 #### `.socket`
-Receives a function as a paramater, that function receives the io server instance
+Receives a function as a paramater, that function receives the $io server instance though dependency injection
 ```js
 app.socket( function($io) {
-    io.on('connection', function (socket) {
+    $io.on('connection', function (socket) {
         socket.emit('news', { hello: 'world' });
         socket.on('my other event', function (data) {
             console.log(data);
