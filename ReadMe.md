@@ -1,3 +1,5 @@
+## (Deprecated)
+
 Api Reference
 =============
 
